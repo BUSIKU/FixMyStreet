@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FixMyStreet - Help</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>FixMyStreet</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Report a Problem</a></li>
+                <li><a href="sign-in.html">Sign In</a></li>
+                <li><a href="all-reports.html">All Reports</a></li>
+                <li><a href="local-alerts.html">Local Alerts</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="help">
+            <h2>FixMyStreet Technical Support</h2>
+            <p>If you have questions about FixMyStreet, it's often quickest to check our FAQs and see if the answer is there.</p>
+            <p>Please do not report problems through this form; messages go to the team behind this site, not a council. To report a problem, please go to the front page and follow the instructions.</p>
+            <p>From a Kitwe’ City  Council and interested in finding out about FixMyStreet Pro? Please look at our dedicated site.</p>
+            <h3>Send a Message to FixMyStreet’s Technical Support Team</h3>
+            <form id="supportForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Your Phone Number (optional):</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="help">I need help using the site/app</option>
+                    <option value="feedback">I have feedback about the site/app</option>
+                    <option value="council">I am from a council</option>
+                    <option value="question">I have a question for the FixMyStreet team</option>
+                    <option value="report">I want to report a street problem</option>
+                    <option value="unfixed">My street problem hasn’t been fixed</option>
+                </select>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        
+        <p>Built by Fainess Munoni | SIN: 2006498269 | Software Engineering</p>
+         <p>Powered by ICU Zambia</p>
+         <p>&copy; 2024 ICU School of Engineering</p>
+     </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
